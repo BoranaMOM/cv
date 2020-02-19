@@ -1,0 +1,173 @@
+ul.menuBar {
+  list-style-type: none;
+  margin-left: -200px;
+  margin-top: 0;
+  text-indent: 10%;
+  padding: 0;
+  width: 150px;
+  background-color: #f1f1f1;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+.title{
+	font-weight: bold;
+	font-size: 13pt;
+}
+
+.organization{}
+
+.date{
+	font-size: 13pt;
+}
+
+.speciality{
+	font-size: 11pt;
+}
+
+.subject{
+	font-size: 12pt;
+}
+
+.description{
+	font-size: 10pt;
+}
+
+.element{
+	font-size: 12pt;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+body {
+background: #FFFFFF;
+color: black; /* commentaire */
+margin-left: 15%;
+margin-right: 0%;
+width: 80%;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+/*Arial,x-locale-body,sans-serif*/
+}
+
+
+hr.contactTop {
+	border: 2px solid black;
+	border-radius: 2px;
+}
+
+table{
+	width: 100%;
+}
+
+th, td {
+	padding: 50px;
+}
+
+table, th, td {
+	/* border: 2px solid black; */
+}
+
+div {
+	margin-bottom: 2cm;
+}
+
+a:link, a:visited, a:active{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #979797;
+}
+
+a.bulletContact{
+	font-size: small;
+}
+
+a.bulletSection{
+	font-size: 20pt;
+}
+
+
+#name {
+	font-size: 22pt;
+	font-weight: bold;
+}
+
+#situation, #age {
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+#mail{
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+h2{
+	font-size: 16pt;
+	text-transform: uppercase;
+	border-bottom: 2px solid #CECECE;
+    display: list-item;          
+    list-style-type: "\25B6";       
+    list-style-position: outside; 
+}
+
+h3{
+	font-size: 14pt;
+	text-transform: uppercase;
+	border-bottom: 1px solid #CECECE;
+    display: list-item;          
+    list-style-type: "\25B6";       
+    list-style-position: outside; 
+}
+
+
+
+div.sectionContent {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid #FFFFFF;
+  background-color: #F7F7F7;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+.divTable.sectionContent .divTableCell, .divTable.sectionContent .divTableHead {
+  border: 5px solid #FFFFFF;
+  padding: 10px 25px;
+  LINE-HEIGHT:25px;
+}
+.divTable.sectionContent .divTableBody .divTableCell {
+  font-size: 12pt;
+  color: #131D33;
+}
+
+.divTable.sectionContent .divTableRow:nth-child(even) {
+  background: #EEEEEE;
+}
+.sectionContent .tableFootStyle {
+  font-size: 14px;
+}
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
+
+
